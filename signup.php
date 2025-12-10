@@ -9,7 +9,7 @@ $message = "";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    // ফর্ম থেকে ডাটা নিচ্ছি
+    
     $name     = trim($_POST['username'] ?? '');
     $email    = trim($_POST['email'] ?? '');
     $password = $_POST['password'] ?? '';
@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } elseif ($password !== $confirm) {
         $message = "Passwords do not match.";
     } else {
-        // নিরাপদভাবে DB তে ইনসার্ট
+        // DB insert
         $nameEsc  = mysqli_real_escape_string($conn, $name);
         $emailEsc = mysqli_real_escape_string($conn, $email);
         $hash     = password_hash($password, PASSWORD_DEFAULT);
