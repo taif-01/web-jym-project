@@ -377,3 +377,224 @@ input, select {
 .bmi-btn{
     margin-top: 25px;
 }
+/* BMI Calculation End */
+
+/* As-My-Wish Section Start */
+.As-My-Wish-container{
+    background-color: #FFFFFF30;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    border-radius: 10px;
+
+}
+.As-My-Wish-title{
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-left: 190px;
+    padding-right: 190px;
+    font-family: "Oswald", sans-serif;
+    padding-top: 20px;
+}
+.As-My-Wish-Programs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 90px;
+    padding-right: 40px;
+}
+.As-My-Wish-Programs img{
+    border-radius: 10px;
+}
+.As-My-Wish-Programs h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* Meet Our Team SEction Start */
+.Our-Team{
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.team-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.team-description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF80;
+    margin-bottom: 58px;
+}
+.team-image1{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer1.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+ .team-image2{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer2.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+ .team-image3{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer3.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+ .team-image4{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer4.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+ .team-image5{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer5.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+ .team-image6{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)) ,url('images/trainer6.png');
+    background-position: center;
+    width: 326.67px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 18px;
+ }
+.Team-conteinar  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0 190px 0 190px;
+}
+.team-image-container{
+    position: relative;
+}
+.team-identity{
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+    text-align: left;
+}
+#team-name{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+}
+#team-post{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+    font-size: 16px;
+}
+/* Meet Our Team SEction End */
+
+/* Main Section End */
+
+/* footer section start */
+footer{
+    background-color: #FFFFFF1A;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 66px 190px 0 190px;
+}
+.Footer-Container{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-div1{
+    width: 443px;
+}
+.foot-div2-conteinar{
+    width: 517px;
+    display: flex;
+    margin-bottom: 80px;
+}
+hr{
+    border: 2px solid #FFFFFF1A;
+}
+.small{
+    text-align: center;
+    margin-top: 37px;
+    padding-bottom: 37px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+.foot-div2-con1{
+    width: 50%;
+    height: 100%;
+}
+.foot-div2-con2{
+    width: 50%;
+    height: 100%;
+}
+.foot-div1-title{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.foot-div1-descrip{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.foot-div2-con-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+.foot-div2-conteinar ul{
+    list-style: none;
+}
+.foot-div2-conteinar ul{
+    margin: 0 10px;
+}
+.foot-div2-conteinar ul li a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 400;
+}
+/* Footer Section End */
+.video_section{
+    text-align: center;
+}
