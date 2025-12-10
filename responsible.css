@@ -120,37 +120,5 @@
     .team-image6{
         width: 99%;
     }
-    .team-image1,
-    .team-image4{
-        display: none;
-    }
-    .primary-btn,
-    .secondary-btn{
-        width: 169px;
-        height: 54px;
-    }
-    .secondary-btn{
-        padding: 16px 20px 16px 20px;
-    }
-    .Run-cointainer{
-        margin:5px;
-        width: 100%;
-    }
-    .As-My-Wish-title{
-        padding:15px;
-    }
-    .BMI-Cal-Title{
-        margin-top: 20px;
-    }
-    .BMI-Cal-Descrip,
-    .BMI-Calculation{
-        margin-bottom: 30px;
-    }
-    .As-My-Wish-Programs{
-        margin: 0 auto;
-    }
-    .As-My-Wish-Programs img,
-    .As-My-Wish-Programs h1{
-        width: 90%;
-    }
+
  }
