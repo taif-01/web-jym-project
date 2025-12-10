@@ -123,7 +123,8 @@
                         A huge selection of health and fitness content, healthy recipes <br>and transformation stories to help you get fit and stay fit!
                     </p>
                     <div class="display-flex btn-deco">
-                        <button class="Font-Color primary-btn" type="button" onclick="showRegistrationForm()">Join Now!</button>
+                        <button class="Font-Color primary-btn" type="button" onclick="window.location.href='signup.php'">Join Now!</button>
+
                         <button class="Font-Color secondary-btn" type="button">Download App</button>
                     </div>
                 </div>
