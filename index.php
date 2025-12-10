@@ -100,7 +100,7 @@
                 <div>
                     <ul class="display-flex Nav-link">
                         <li><a href="#" onclick="showHome()"><span id="Nav-Home">Home</span></a></li>
-                        <li><a href="#">Service</a></li>
+                        <li><a href="service.php">Service</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#" onclick="showAbout()">About</a></li>
                     </ul>
@@ -186,6 +186,7 @@
 
         </table>
     </section>
+
     <section id="registration-form">
         <h1>Register</h1>
         <form onsubmit="return validateForm()">
@@ -397,7 +398,7 @@
                 <div class="foot-div2-con1">
                     <h1 class="foot-div2-con-title">Get Started</h1>
                     <ul>
-                        <li><a href="#">Service</a></li><br>
+                        <li><a href="service.php">Service</a></li><br>
                         <li><a href="#">Contact Us</a></li><br>
                         <li><a href="#">Affiliate Program</a></li><br>
                         <li><a href="#">About Us</a></li><br>
