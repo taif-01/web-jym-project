@@ -6,7 +6,7 @@ $message = "";
 
 // Simple hard-coded admin credential
 $adminUser = "admin";
-$adminPass = "admin123";   // চাইলে পরে strong password দাও
+$adminPass = "admin123";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user = $_POST['username'] ?? '';
