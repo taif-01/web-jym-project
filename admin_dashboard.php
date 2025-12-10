@@ -8,7 +8,7 @@ if (empty($_SESSION['admin_logged_in'])) {
     exit;
 }
 
-// সব user টেনে আনছি
+
 $result = mysqli_query($conn, "SELECT * FROM users ORDER BY id DESC");
 ?>
 <!DOCTYPE html>
